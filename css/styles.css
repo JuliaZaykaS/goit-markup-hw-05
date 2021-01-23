@@ -581,6 +581,8 @@ body {
 }
 
 .filter-button {
+  padding-top: 6px;
+  padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
 
@@ -678,6 +680,7 @@ body {
 .project-card:focus .project-overlay {
   transform: translateY(0);
   opacity: 1;
+  visibility: visible;
 }
 
 .card-content {
