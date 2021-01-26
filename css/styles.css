@@ -645,6 +645,11 @@ body {
   overflow: hidden;
 }
 
+.project-description,
+.project-overlay {
+  opacity: 0;
+}
+
 .project-description {
   position: absolute;
   display: flex;
@@ -652,7 +657,7 @@ body {
   bottom: 50%;
   left: 50%;
 
-  opacity: 0;
+  /* opacity: 0; */
   transition: opacity var(--animation-time) var(--timing-function);
 }
 
@@ -671,7 +676,7 @@ body {
   background-color: rgba(33, 150, 243, 0.9);
 
   transform: translateY(100%);
-  opacity: 0;
+  /* opacity: 0; */
   transition: transform var(--animation-time) var(--timing-function),
     opacity var(--animation-time) var(--timing-function);
   /* visibility var(--animation-time) var(--timing-function); */
