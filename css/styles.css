@@ -663,7 +663,7 @@ body {
 
 .project-overlay {
   position: absolute;
-  visibility: hidden;
+  /* visibility: hidden; */
   left: 0;
   bottom: 0;
   width: 100%;
@@ -674,13 +674,14 @@ body {
   opacity: 0;
   transition: transform var(--animation-time) var(--timing-function),
     opacity var(--animation-time) var(--timing-function);
+  /* visibility var(--animation-time) var(--timing-function); */
 }
 
 .project-card:hover .project-overlay,
 .project-card:focus .project-overlay {
   transform: translateY(0);
   opacity: 1;
-  visibility: visible;
+  /* visibility: visible; */
 }
 
 .card-content {
