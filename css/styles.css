@@ -650,12 +650,36 @@ body {
   opacity: 0;
 }
 
+/* .project-description {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  padding: 63px 24px;
+
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--main-white-color);
+} */
+
 .project-description {
   position: absolute;
   display: flex;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 
-  bottom: 50%;
-  left: 50%;
+  padding: 63px 24px;
+
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--main-white-color);
+
+  /* bottom: 50%;
+  left: 50%; */
 
   /* opacity: 0; */
   transition: opacity var(--animation-time) var(--timing-function);
@@ -712,20 +736,6 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-}
-
-.project-description {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  padding: 63px 24px;
-
-  font-size: 18px;
-  line-height: 1.56;
-  color: var(--main-white-color);
 }
 
 /*=== /Проекты ===*/
