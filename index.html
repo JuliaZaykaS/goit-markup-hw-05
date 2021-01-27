@@ -39,7 +39,7 @@
         <ul class="list header-connection">
           <li class="item">
             <a class="connection link" href="mailto:info@devstudio.com">
-              <svg class="email" width="16" height="12">
+              <svg class="icon email" width="16" height="12">
                 <use href="./images/main/sprite-icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
@@ -47,7 +47,7 @@
           </li>
           <li class="item">
             <a class="connection link" href="tel:+380961111111">
-              <svg class="telephone" width="10" height="16">
+              <svg class="icon telephone" width="10" height="16">
                 <use
                   href="./images/main/sprite-icons.svg#icon-smartphone"
                 ></use>
@@ -65,9 +65,20 @@
       <section class="slogan">
         <div class="container">
           <h1 class="slogan-title">Эффективные решения для вашего бизнеса</h1>
-          <a class="button-primary link" href="#">Заказать услугу</a>
+          <a class="button-primary link" data-modal-open href="#"
+            >Заказать услугу</a
+          >
         </div>
       </section>
+      <div class="modal-backdrop is-hidden" data-modal>
+        <div class="modal-window">
+          <button class="modal-button" data-modal-close>
+            <svg width="11" height="11">
+              <use href="./images/main/sprite-icons.svg#icon-closebutton"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
       <!--/Девиз-->
 
       <!--Наши преимущества-->
@@ -144,6 +155,7 @@
                 width="370"
                 height="294"
               />
+              <p class="service-description">Десктопные приложения</p>
             </li>
             <li class="our-service">
               <img
@@ -153,6 +165,7 @@
                 width="370"
                 height="294"
               />
+              <p class="service-description">Мобильные приложения</p>
             </li>
             <li class="our-service">
               <img
@@ -162,6 +175,7 @@
                 width="370"
                 height="294"
               />
+              <p class="service-description">Дизайнерские решения</p>
             </li>
           </ul>
         </div>
@@ -187,7 +201,7 @@
                 <ul class="social-network-list list">
                   <li class="social-network">
                     <a href="#" class="social-link">
-                      <svg class="social-icon" width="20" height="20">
+                      <svg class="icon social-icon" width="20" height="20">
                         <use
                           href="./images/main/sprite-icons.svg#icon-instagram"
                         ></use>
@@ -196,7 +210,7 @@
                   </li>
                   <li class="social-network">
                     <a href="#" class="social-link">
-                      <svg class="social-icon" width="20" height="20">
+                      <svg class="icon social-icon" width="20" height="20">
                         <use
                           href="./images/main/sprite-icons.svg#icon-twitter"
                         ></use>
@@ -205,7 +219,7 @@
                   </li>
                   <li class="social-network">
                     <a href="#" class="social-link">
-                      <svg class="social-icon" width="20" height="20">
+                      <svg class="icon social-icon" width="20" height="20">
                         <use
                           href="./images/main/sprite-icons.svg#icon-facebook"
                         ></use>
@@ -214,7 +228,7 @@
                   </li>
                   <li class="social-network">
                     <a href="#" class="social-link">
-                      <svg class="social-icon" width="20" height="20">
+                      <svg class="icon social-icon" width="20" height="20">
                         <use
                           href="./images/main/sprite-icons.svg#icon-linkedin"
                         ></use>
@@ -238,7 +252,7 @@
                 <ul class="social-network-list list">
                   <li class="social-network">
                     <a href="#" class="social-link">
-                      <svg class="social-icon" width="20" height="20">
+                      <svg class="icon social-icon" width="20" height="20">
                         <use
                           href="./images/main/sprite-icons.svg#icon-instagram"
                         ></use>
@@ -247,7 +261,7 @@
                   </li>
                   <li class="social-network">
                     <a href="#" class="social-link">
-                      <svg class="social-icon" width="20" height="20">
+                      <svg class="icon social-icon" width="20" height="20">
                         <use
                           href="./images/main/sprite-icons.svg#icon-twitter"
                         ></use>
@@ -256,7 +270,7 @@
                   </li>
                   <li class="social-network">
                     <a href="#" class="social-link">
-                      <svg class="social-icon" width="20" height="20">
+                      <svg class="icon social-icon" width="20" height="20">
                         <use
                           href="./images/main/sprite-icons.svg#icon-facebook"
                         ></use>
@@ -265,7 +279,7 @@
                   </li>
                   <li class="social-network">
                     <a href="#" class="social-link">
-                      <svg class="social-icon" width="20" height="20">
+                      <svg class="icon social-icon" width="20" height="20">
                         <use
                           href="./images/main/sprite-icons.svg#icon-linkedin"
                         ></use>
@@ -289,7 +303,7 @@
                 <ul class="social-network-list list">
                   <li class="social-network">
                     <a href="#" class="social-link">
-                      <svg class="social-icon" width="20" height="20">
+                      <svg class="icon social-icon" width="20" height="20">
                         <use
                           href="./images/main/sprite-icons.svg#icon-instagram"
                         ></use>
@@ -298,7 +312,7 @@
                   </li>
                   <li class="social-network">
                     <a href="#" class="social-link">
-                      <svg class="social-icon" width="20" height="20">
+                      <svg class="icon social-icon" width="20" height="20">
                         <use
                           href="./images/main/sprite-icons.svg#icon-twitter"
                         ></use>
@@ -307,7 +321,7 @@
                   </li>
                   <li class="social-network">
                     <a href="#" class="social-link">
-                      <svg class="social-icon" width="20" height="20">
+                      <svg class="icon social-icon" width="20" height="20">
                         <use
                           href="./images/main/sprite-icons.svg#icon-facebook"
                         ></use>
@@ -316,7 +330,7 @@
                   </li>
                   <li class="social-network">
                     <a href="#" class="social-link">
-                      <svg class="social-icon" width="20" height="20">
+                      <svg class="icon social-icon" width="20" height="20">
                         <use
                           href="./images/main/sprite-icons.svg#icon-linkedin"
                         ></use>
@@ -340,7 +354,7 @@
                 <ul class="social-network-list list">
                   <li class="social-network">
                     <a href="#" class="social-link">
-                      <svg class="social-icon" width="20" height="20">
+                      <svg class="icon social-icon" width="20" height="20">
                         <use
                           href="./images/main/sprite-icons.svg#icon-instagram"
                         ></use>
@@ -349,7 +363,7 @@
                   </li>
                   <li class="social-network">
                     <a href="#" class="social-link">
-                      <svg class="social-icon" width="20" height="20">
+                      <svg class="icon social-icon" width="20" height="20">
                         <use
                           href="./images/main/sprite-icons.svg#icon-twitter"
                         ></use>
@@ -358,7 +372,7 @@
                   </li>
                   <li class="social-network">
                     <a href="#" class="social-link">
-                      <svg class="social-icon" width="20" height="20">
+                      <svg class="icon social-icon" width="20" height="20">
                         <use
                           href="./images/main/sprite-icons.svg#icon-facebook"
                         ></use>
@@ -367,7 +381,7 @@
                   </li>
                   <li class="social-network">
                     <a href="#" class="social-link">
-                      <svg class="social-icon" width="20" height="20">
+                      <svg class="icon social-icon" width="20" height="20">
                         <use
                           href="./images/main/sprite-icons.svg#icon-linkedin"
                         ></use>
@@ -389,14 +403,14 @@
           <ul class="list regular-clients">
             <li class="client">
               <a href="#" class="link client-link">
-                <svg  width="44" height="49">
+                <svg class="icon" width="44" height="49">
                   <use href="./images/main/sprite-icons.svg#icon-yaco"></use>
                 </svg>
               </a>
             </li>
             <li class="client">
               <a href="#" class="link client-link">
-                <svg  width="40" height="52">
+                <svg class="icon" width="40" height="52">
                   <use
                     href="./images/main/sprite-icons.svg#icon-taglinehere"
                   ></use>
@@ -405,14 +419,14 @@
             </li>
             <li class="client">
               <a href="#" class="link client-link">
-                <svg  width="41" height="43">
+                <svg class="icon" width="41" height="43">
                   <use href="./images/main/sprite-icons.svg#icon-company"></use>
                 </svg>
               </a>
             </li>
             <li class="client">
               <a href="#" class="link client-link">
-                <svg  width="80" height="42">
+                <svg class="icon" width="80" height="42">
                   <use
                     href="./images/main/sprite-icons.svg#icon-fosterpeters"
                   ></use>
@@ -421,14 +435,14 @@
             </li>
             <li class="client">
               <a href="#" class="link client-link">
-                <svg  width="59" height="47">
+                <svg class="icon" width="59" height="47">
                   <use href="./images/main/sprite-icons.svg#icon-brand"></use>
                 </svg>
               </a>
             </li>
             <li class="client">
               <a href="#" class="link client-link">
-                <svg  width="88" height="45">
+                <svg class="icon" width="88" height="45">
                   <use href="./images/main/sprite-icons.svg#icon-tagline"></use>
                 </svg>
               </a>
@@ -464,7 +478,7 @@
             <ul class="list social-network-list">
               <li class="social-network company-social-link">
                 <a href="#" class="social-link">
-                  <svg class="social-icon" width="20" height="20">
+                  <svg class="icon social-icon" width="20" height="20">
                     <use
                       href="./images/main/sprite-icons.svg#icon-instagram"
                     ></use>
@@ -473,7 +487,7 @@
               </li>
               <li class="social-network company-social-link">
                 <a href="#" class="social-link">
-                  <svg class="social-icon" width="20" height="20">
+                  <svg class="icon social-icon" width="20" height="20">
                     <use
                       href="./images/main/sprite-icons.svg#icon-twitter"
                     ></use>
@@ -482,7 +496,7 @@
               </li>
               <li class="social-network company-social-link">
                 <a href="#" class="social-link">
-                  <svg class="social-icon" width="20" height="20">
+                  <svg class="icon social-icon" width="20" height="20">
                     <use
                       href="./images/main/sprite-icons.svg#icon-facebook"
                     ></use>
@@ -491,7 +505,7 @@
               </li>
               <li class="social-network company-social-link">
                 <a href="#" class="social-link">
-                  <svg class="social-icon" width="20" height="20">
+                  <svg class="icon social-icon" width="20" height="20">
                     <use
                       href="./images/main/sprite-icons.svg#icon-linkedin"
                     ></use>
@@ -504,5 +518,7 @@
       </div>
     </footer>
     <!--/Подвал с контактами-->
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
